@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:     Tonys Sportspress Enhancements
+ * Plugin Name:     Tonys SportsPress Enhancements
  * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
+ * Description:     Suite of SportsPress Enhancements
  * Author:          YOUR NAME HERE
  * Author URI:      YOUR SITE HERE
  * Text Domain:     tonys-sportspress-enhancements
@@ -12,4 +12,5 @@
  * @package         Tonys_Sportspress_Enhancements
  */
 
-// Your code starts here.
+
+// Include other files here
