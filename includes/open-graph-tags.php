@@ -96,8 +96,7 @@ function custom_open_graph_tags_with_sportspress_integration() {
             }
             
             $description .= " " . $post->post_content;
-            $post_thumbnail =  get_the_post_thumbnail_url($post->ID, 'thumbnail');
-            $image = $post_thumbnail ? $post_thumbnail : get_site_icon_url();
+            $image = get_site_url() . "/head-to-head?post={$post->ID}";
             echo '<meta property="og:type" content="article" />' . "\n";
             echo '<meta property="og:image" content="'. $image . '" />' . "\n";
             echo '<meta property="og:title" content="' . $title . '" />' . "\n";
