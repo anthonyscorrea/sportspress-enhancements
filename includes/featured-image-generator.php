@@ -184,6 +184,17 @@ add_action('template_redirect', 'handle_image_request');
 
 function serve_image($image_path) {
     header('Content-Type: image/png');
+    if (file_exists($image_path)) {
+        status_header( 200 ); 
+    } else {
+        status_header( 404 );
+        die("Image not found.");
+    }
+
+    // Clear all output buffering to prevent any extra output
+    while (ob_get_level()) {
+        ob_end_clean();
+    }
     readfile($image_path);
 }
 
