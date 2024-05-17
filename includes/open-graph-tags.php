@@ -91,7 +91,8 @@ function custom_open_graph_tags_with_sportspress_integration() {
               );              
                 $i++;
               endforeach;
-              $title = "{$teams_result_array[0]['team_name']} {$teams_result_array[0]['result']['r']} - {$teams_result_array[1]['result']['r']} {$teams_result_array[1]['team_name']} ({$publish_date})";
+              $publish_date = get_the_date('F j, Y', $post);
+              $title = "{$teams_result_array[0]['team_name']} {$teams_result_array[0]['result']['r']}-{$teams_result_array[1]['result']['r']} {$teams_result_array[1]['team_name']} ({$publish_date})";
               $description .= " " . "{$teams_result_array[0]['team_name']} ({$teams_result_array[0]['outcome']}), {$teams_result_array[1]['team_name']} ({$teams_result_array[1]['outcome']}).";;
             }
             
