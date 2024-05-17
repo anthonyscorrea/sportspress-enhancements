@@ -14,3 +14,4 @@
 
 
 // Include other files here
+require_once plugin_dir_path(__FILE__) . 'includes/sp-event-permalink.php';
