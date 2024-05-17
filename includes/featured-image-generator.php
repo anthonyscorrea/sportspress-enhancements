@@ -6,8 +6,6 @@ Version: 1.0
 Author: Your Name
 */
 
-add_action('save_post_sp_event', 'generate_event_featured_image', 10, 3);
-
 function generate_bisected_image($color1, $color2, $logo1_path, $logo2_path) {
     $width = 1200;
     $height = 628;
