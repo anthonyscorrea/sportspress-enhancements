@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name:     Tonys SportsPress Enhancements
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin URI:      https://github.com/anthonyscorrea/tonys-sportspress-enhancements
  * Description:     Suite of SportsPress Enhancements
- * Author:          YOUR NAME HERE
- * Author URI:      YOUR SITE HERE
+ * Author:          Tony Correa
+ * Author URI:      Yhttps://github.com/anthonyscorrea/
  * Text Domain:     tonys-sportspress-enhancements
  * Domain Path:     /languages
  * Version:         0.1.1
